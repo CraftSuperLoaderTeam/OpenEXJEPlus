@@ -1,0 +1,10 @@
+include "system";
+include "script";
+include "native";
+
+value ar = [2,4,2,5,78,23,44,3,5,25,5,5,2];
+
+native.printf(script.se(ar));
+
+
+
